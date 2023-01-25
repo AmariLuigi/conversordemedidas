@@ -1,0 +1,38 @@
+.logoimg {
+  width: 277px;
+  height: 58px;
+}
+
+.logodiv {
+  padding-left: 1%;
+  position: absolute;
+}
+
+.navbardiv {
+  position: relative;
+  width: 100%;
+}
+
+.navbar {
+  height: 58px;
+  background-color: #545454;
+  box-shadow: 2px 2px 2px #6d2d2d;
+}
+
+.menu {
+  padding-top: 22px;
+  padding-bottom: 0.5%;
+  text-align: right;
+  padding-right: 10%;
+}
+
+.menu li {
+  display: inline;
+  padding: 2%;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #5e5e5e;
+}
