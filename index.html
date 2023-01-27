@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="reset.css" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
     <title>Conversor de Medidas</title>
   </head>
   <body>
@@ -27,17 +28,21 @@
     </header>
     <main>
       <div class="container">
-        <h1 id="titulo-conversao">Código binário</h1>
+        <h1 class="titulo-conversao">Código binário</h1>
         <div class="box">
           <div class="column-left">
-            <div class="legenda">Texto para codificar:</div>
+            <div class="legenda1">Texto para codificar:</div>
             <textarea name="texto" spellcheck="false" class="caixa1"></textarea>
-            <button name="encode" class="btn-encode">Codificar</button>
+            <button id="button1" name="botao1" class="btn-encode">
+              Codificar
+            </button>
           </div>
           <div class="column-right">
-            <div class="legenda">Binário para decodificar:</div>
+            <div class="legenda2">Binário para decodificar:</div>
             <textarea name="texto" spellcheck="false" class="caixa2"></textarea>
-            <button name="decode" class="btn-decode">Decodificar</button>
+            <button id="button2" name="botao2" class="btn-decode">
+              Decodificar
+            </button>
           </div>
         </div>
       </div>

@@ -34,5 +34,89 @@
 .menu li a {
   text-decoration: none;
   background-color: transparent;
-  color: #5e5e5e;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  margin-left: 40px;
+  margin-top: 40px;
+  display: block;
+}
+
+.titulo-conversao {
+  font-size: 125%;
+  color: #555;
+  font-weight: 600;
+  text-align: center;
+  margin-left: -20%;
+}
+
+.box {
+  margin-top: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-left: -20%;
+}
+
+textarea {
+  resize: none;
+}
+
+.caixa1 {
+  border: 1px solid #bbb;
+  font-size: 16px;
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: #333 2px 2px;
+}
+
+.caixa2 {
+  border: 1px solid #bbb;
+  font-size: 16px;
+  width: 100%;
+  height: 300px;
+  margin-left: 20%;
+  border-radius: 5px;
+  box-shadow: #333 2px 2px;
+}
+
+.legenda2 {
+  margin-left: 20%;
+}
+
+.btn-encode {
+  color: #fff;
+  background-color: #6d2d2d;
+  border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: #333 2px 2px;
+}
+
+.btn-decode {
+  margin-left: 20%;
+  color: #fff;
+  background-color: #6d2d2d;
+  border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: #333 2px 2px;
+}
+
+.btn-encode:hover,
+.btn-decode:hover {
+  background-color: #7c3535;
+}
+
+.btn-encode:active,
+.btn-decode:active {
+  background-color: #b64f4f;
 }
