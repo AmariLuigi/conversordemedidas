@@ -98,8 +98,7 @@ textarea {
   color: #fff;
   background-color: #6d2d2d;
   border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: #333 2px 2px;
+  box-shadow: #333 1px 1px;
 }
 
 .btn-decode {
@@ -107,8 +106,7 @@ textarea {
   color: #fff;
   background-color: #6d2d2d;
   border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: #333 2px 2px;
+  box-shadow: #333 1px 1px;
 }
 
 .btn-encode:hover,
